@@ -1,0 +1,90 @@
+.main {
+    width: 100wh;
+    height: 100vh;
+    border: 2px solid black;
+    background-color: rgb(26, 24, 24);
+}
+
+.loginmain {
+    /* border: 2px solid green; */
+    width: 1000px;
+    box-shadow: 0px 0px 10px rgb(112, 106, 106);
+    border-radius: 10px;
+    height: 570px;
+    margin: 70px auto;
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    background-color: #2f3542;
+}
+
+.loginmain .leftlogin {
+    background-image: url('https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/beauty-and-the-beast-(3d)-(exclusively-for-women)-et00055008-21-03-2017-09-55-20.jpg');
+    border-radius: 5px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 45%;
+    height: 100%;
+}
+
+.loginmain .rightlogin {
+    width: 50%;
+    /* border: 2px solid black; */
+    margin-left: 50px;
+}
+
+.loginmain .rightlogin .rightwala {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin: 50px auto;
+    height: 100%;
+}
+
+.loginmain .rightlogin .rightwala input {
+    width: 100%;
+    padding: 14px;
+    border-radius: 5px;
+    font-size: large;
+}
+
+.loginmain .rightlogin .rightwala label {
+    margin-right: 500px;
+    font-size: 20px;
+}
+
+.loginmain .rightlogin .rightwala button {
+    width: 97%;
+    padding: 7px;
+    font-size: 23px;
+    border-radius: 5px;
+    background-color: #ff4757;
+    border: none;
+    color: white;
+    font-weight: 400;
+    transition: 0.9s;
+}
+
+.loginmain .rightlogin .rightwala button:hover {
+    background-color: #c82f3b;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.logoutwala {
+    background-color: rgb(1, 147, 147);
+    color: white;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+.logoutwala:hover {
+    background-color: #ff4757;
+    transform: scale(1.1);
+}
+
+
+/* .loginmain .rightlogin .rightwala input:hover{
+    border: #ff4757;
+} */
