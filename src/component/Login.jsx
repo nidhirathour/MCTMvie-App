@@ -8,23 +8,9 @@ const Login = () => {
     name: "",
     password: "",
   });
-  // const {SetEmail,SetPassword}=useContext(myContext)
-//   const email=useRef()
-// const password=useRef()
-// const getEmail=localStorage.getItem("emailData")
-// const getPassword=localStorage.getItem("passwordData")
-// const handleLogin=()=>{
-//     if(email.current.value==="rahul@123"&&password.current.value==="rahul123"){
-//         localStorage.setItem("emailData","rahul@123")
-//         localStorage.setItem("passwordData","rahul123")
-//     }
-//     else{
-//       alert("Wrong Email & Password")
-//     }
-// }
 
 const handleLogin = () => {
-  if(user.name === "rahul" && user.password === "1234" ) {
+  if(user.name === "nidhi" && user.password === "1234" ) {
     setlogin(true);
   } else {
     alert("Enter Proper Credentials");
